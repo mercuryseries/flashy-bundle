@@ -13,7 +13,7 @@ class FlashyTest extends TestCase
     
     public function setUp()
     {
-        $this->session = $this->createMock('MercurySeries\FlashyBundle\SessionFlashBag');
+        $this->session = $this->createMock('MercurySeries\FlashyBundle\SessionStore');
 
         $this->flashy = new FlashyNotifier($this->session);
     }

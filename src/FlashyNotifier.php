@@ -8,7 +8,7 @@ class FlashyNotifier
 
     private $flashMessageName;
 
-    public function __construct(SessionStore $session, string $flashMessageName)
+    public function __construct(SessionStore $session, string $flashMessageName = 'mercuryseries_flashy_notification')
     {
         $this->session = $session;
 
