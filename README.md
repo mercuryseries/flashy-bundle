@@ -175,6 +175,7 @@ and override the following sections of the default flashy view:
 ## Configuration
 
 ```yaml
+# config/packages/mercuryseries_flashy.yaml
 mercuryseries_flashy:
     # The name to use as the flash message key in the session store
     flash_message_name:   mercuryseries_flashy_notification
