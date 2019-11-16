@@ -1,0 +1,32 @@
+{
+    "name": "mercuryseries/flashy-bundle",
+    "description": "Easy flash notifications in Symfony",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Honore Hounwanou",
+            "email": "mercuryseries@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "symfony/framework-bundle": "^4.0",
+        "symfony/config": "^4.0",
+        "symfony/dependency-injection": "^4.0",
+        "symfony/http-kernel": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MercurySeries\\FlashyBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MercurySeries\\FlashyBundle\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^4.3"
+    }
+}

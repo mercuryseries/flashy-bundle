@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services
+        https://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <service 
+            id="mercuryseries_flashy.flashy_notifier"
+            class="MercurySeries\FlashyBundle\FlashyNotifier"
+            public="true"
+        >
+            <argument type="service" id="mercuryseries_flashy.session_store" />
+        </service>
+
+        <service
+            id="mercuryseries_flashy.symfony_session_store"
+            class="MercurySeries\FlashyBundle\SymfonySessionStore"
+            public="false"
+        >
+            <argument type="service" id="session.flash_bag" />
+        </service>
+
+       <service
+            id="mercuryseries_flashy.session_store"
+            alias="mercuryseries_flashy.symfony_session_store"
+            public="false"
+        />
+       <service 
+            id="MercurySeries\FlashyBundle\FlashyNotifier"
+            alias="mercuryseries_flashy.flashy_notifier"
+            public="false"
+        />
+    </services>
+</container>
