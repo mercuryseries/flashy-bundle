@@ -1,4 +1,4 @@
-# Easy Flash Messages in Symfony
+# Nice Flash Messages in Symfony
 
 # Copyright
 Inspired by [Jeffrey Way's Flash Package](https://github.com/laracasts/flash).
