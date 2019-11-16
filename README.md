@@ -1,5 +1,8 @@
 # Nice Flash Messages in Symfony
 
+![Example of Error Notification](https://i.imgur.com/6UnNsnp.png)
+
+
 # Copyright
 Inspired by [Jeffrey Way's Flash Package](https://github.com/laracasts/flash).
 
