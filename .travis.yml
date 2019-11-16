@@ -31,4 +31,5 @@ matrix:
 
           # Latest commit to master
         - php: 7.2
+script: simple-phpunit
 
