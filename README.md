@@ -131,9 +131,11 @@ The default content of `@MercurySeriesFlashy/flashy.html.twig` is:
 
 The bundles comes with basic CSS & JS for the default partial so you can get started faster. Of course you can change them, use another ones or create your own partial.
 
+```html
 <link rel="stylesheet" href="{{ asset('bundles/mercuryseriesflashy/css/flashy.css') }}" type="text/css" media="all" />
 
 <script src="{{ asset('bundles/mercuryseriesflashy/js/flashy.js') }}"></script>
+```
 
 > Again, note that this bundle has jQuery as dependency.
 
@@ -154,7 +156,6 @@ and override the following sections of the default flashy view:
     font-family: "Source Sans Pro", Arial, sans-serif;
     ...
 }
-</style>
 
 // templates/bundles/MercurySeriesFlashyBundle/flashy.html.twig
 {% for message in app.flashes('mercuryseries_flashy_notification') %}
