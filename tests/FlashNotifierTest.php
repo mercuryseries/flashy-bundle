@@ -23,7 +23,7 @@ class FlashyTest extends TestCase
     {
         $this->session
             ->expects($this->once())
-            ->method('flashy')
+            ->method('flash')
             ->with('mercuryseries_flashy_notification', [
                 'message' => 'Welcome Aboard',
                 'link' => '#',
@@ -38,7 +38,7 @@ class FlashyTest extends TestCase
     {
         $this->session
             ->expects($this->once())
-            ->method('flashy')
+            ->method('flash')
             ->with('mercuryseries_flashy_notification', [
                 'message' => 'Welcome Aboard',
                 'link' => '#',
@@ -53,7 +53,7 @@ class FlashyTest extends TestCase
     {
         $this->session
             ->expects($this->once())
-            ->method('flashy')
+            ->method('flash')
             ->with('mercuryseries_flashy_notification', [
                 'message' => 'Welcome Aboard',
                 'link' => '#',
@@ -68,7 +68,7 @@ class FlashyTest extends TestCase
     {
         $this->session
             ->expects($this->once())
-            ->method('flashy')
+            ->method('flash')
             ->with('mercuryseries_flashy_notification', [
                 'message' => 'Uh Oh',
                 'link' => '#',
@@ -83,7 +83,7 @@ class FlashyTest extends TestCase
     {
         $this->session
             ->expects($this->once())
-            ->method('flashy')
+            ->method('flash')
             ->with('mercuryseries_flashy_notification', [
                 'message' => 'Be careful!',
                 'link' => '#',
@@ -98,7 +98,7 @@ class FlashyTest extends TestCase
     {
         $this->session
             ->expects($this->once())
-            ->method('flashy')
+            ->method('flash')
             ->with('mercuryseries_flashy_notification', [
                 'message' => 'Thanks for signing up!',
                 'link' => '#',
@@ -113,7 +113,7 @@ class FlashyTest extends TestCase
     {
         $this->session
             ->expects($this->once())
-            ->method('flashy')
+            ->method('flash')
             ->with('mercuryseries_flashy_notification', [
                 'message' => 'Thanks for signing up!',
                 'link' => '#',
@@ -128,7 +128,7 @@ class FlashyTest extends TestCase
     {
         $this->session
             ->expects($this->once())
-            ->method('flashy')
+            ->method('flash')
             ->with('mercuryseries_flashy_notification', [
                 'message' => 'Can you see me?',
                 'link' => '#',
@@ -143,7 +143,7 @@ class FlashyTest extends TestCase
     {
         $this->session
             ->expects($this->once())
-            ->method('flashy')
+            ->method('flash')
             ->with('mercuryseries_flashy_notification', [
                 'message' => 'Can you see me?',
                 'link' => '#',

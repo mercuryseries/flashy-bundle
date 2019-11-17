@@ -4,5 +4,5 @@ namespace MercurySeries\FlashyBundle;
 
 interface SessionStore
 {
-    public function flashy(string $name, array $data): void;
+    public function flash(string $name, array $data): void;
 }

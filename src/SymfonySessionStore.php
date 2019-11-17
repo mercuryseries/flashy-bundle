@@ -13,7 +13,7 @@ class SymfonySessionStore implements SessionStore
         $this->session = $session;
     }
 
-    public function flashy(string $name, array $data): void
+    public function flash(string $name, array $data): void
     {
         $this->session->add($name, $data);
     }

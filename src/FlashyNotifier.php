@@ -73,7 +73,7 @@ class FlashyNotifier
 
     public function message(string $message, ?string $link = '#', ?string $type = 'success'): self
     {
-        $this->session->flashy($this->flashMessageName, compact('message', 'link', 'type'));
+        $this->session->flash($this->flashMessageName, compact('message', 'link', 'type'));
 
         return $this;
     }
