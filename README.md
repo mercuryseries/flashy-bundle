@@ -71,14 +71,14 @@ public function create()
 
 You may also do:
 
-- `$flashy->info('Your Message', 'http://your-awesome-link.com')`
-- `$flashy->success('Your Message', 'http://your-awesome-link.com')`
-- `$flashy->error('Your Message', 'http://your-awesome-link.com')`
-- `$flashy->warning('Your Message', 'http://your-awesome-link.com')`
-- `$flashy->primary('Your Message', 'http://your-awesome-link.com')`
-- `$flashy->primaryDark('Your Message', 'http://your-awesome-link.com')`
-- `$flashy->muted('Your Message', 'http://your-awesome-link.com')`
-- `$flashy->mutedDark('Your Message', 'http://your-awesome-link.com')`
+- `$flashy->info('Welcome Aboard', 'http://your-awesome-link.com')`
+- `$flashy->success('Welcome Aboard', 'http://your-awesome-link.com')`
+- `$flashy->error('Uh Oh', 'http://your-awesome-link.com')`
+- `$flashy->warning('Be careful!', 'http://your-awesome-link.com')`
+- `$flashy->primary('Thanks for signing up!', 'http://your-awesome-link.com')`
+- `$flashy->primaryDark('Thanks for signing up!', 'http://your-awesome-link.com')`
+- `$flashy->muted('Can you see me?', 'http://your-awesome-link.com')`
+- `$flashy->mutedDark('Can you see me?', 'http://your-awesome-link.com')`
 
 This will set a few keys in the session:
 
@@ -97,7 +97,7 @@ With this message flashed to the session, you may now display it in your view(s)
     <meta charset="UTF-8">
     <title>My Awesome Website</title>
     <!-- Load Flashy default CSS -->
-    <link rel="stylesheet" href="{{ asset('bundles/mercuryseriesflashy/css/flashy.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('bundles/mercuryseriesflashy/css/flashy.css') }}">
 </head>
 <body>
     <h1>Welcome to my website!</h1>
@@ -138,7 +138,7 @@ The default content of `@MercurySeriesFlashy/flashy.html.twig` is:
 The bundles comes with basic CSS & JS for the default partial so you can get started faster. Of course you can change them, use another ones or create your own partial.
 
 ```html
-<link rel="stylesheet" href="{{ asset('bundles/mercuryseriesflashy/css/flashy.css') }}" type="text/css" media="all" />
+<link rel="stylesheet" href="{{ asset('bundles/mercuryseriesflashy/css/flashy.css') }}">
 
 <script src="{{ asset('bundles/mercuryseriesflashy/js/flashy.js') }}"></script>
 ```
