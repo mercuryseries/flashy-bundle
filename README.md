@@ -184,5 +184,5 @@ mercuryseries_flashy:
     flash_message_name:   mercuryseries_flashy_notification
 
     # The session store to use for storing flash messages
-    session_flashbag_store: null
+    session_store: null
 ```
