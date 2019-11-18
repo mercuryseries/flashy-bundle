@@ -96,7 +96,7 @@ With this message flashed to the session, you may now display it in your view(s)
 <head>
     <meta charset="UTF-8">
     <title>My Awesome Website</title>
-    <!-- Flashy Default CSS -->
+    <!-- Load flashy default CSS -->
     <link rel="stylesheet" href="{{ asset('bundles/mercuryseriesflashy/css/flashy.css') }}" type="text/css" media="all" />
 </head>
 <body>
@@ -104,15 +104,15 @@ With this message flashed to the session, you may now display it in your view(s)
     
     <!-- Flashy depends on jQuery -->
     <script src="//code.jquery.com/jquery.js"></script>
-    <!-- Flashy Default JS -->
+    <!-- Load flashy default JavaScript -->
     <script src="{{ asset('bundles/mercuryseriesflashy/js/flashy.js') }}"></script>
-    <!-- Flashy Default Template -->
+    <!-- Include Flashy default partial -->
     {{ include('@MercurySeriesFlashy/flashy.html.twig') }}
 </body>
 </html>
 ```
 
-> Note that this bundle has jQuery as dependency. It's also better to load flashy before your body close tag.
+> Note that this bundle has jQuery as dependency. It's also better to load the flashy partial before your body close tag.
 
 If you need to modify the default flash message partial, you can create a `bundles/MercurySeriesFlashyBundle/flashy.html.twig` in your `templates` folder.
 
