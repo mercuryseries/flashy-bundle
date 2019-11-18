@@ -91,20 +91,23 @@ With this message flashed to the session, you may now display it in your view(s)
 ## Example
 
 ```twig
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>My Awesome Website</title>
+    <!-- Flashy Default CSS -->
+    <link rel="stylesheet" href="{{ asset('bundles/mercuryseriesflashy/css/flashy.css') }}" type="text/css" media="all" />
 </head>
 <body>
-
-<div class="container">
-    <p>Welcome to my website...</p>
-</div>
-
-<script src="//code.jquery.com/jquery.js"></script>
-{{ include('@MercurySeriesFlashy/flashy.html.twig') }}
+    <h1>Welcome to my website!</h1>
+    
+    <!-- Flashy depends on jQuery -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Flashy Default JS -->
+    <script src="{{ asset('bundles/mercuryseriesflashy/js/flashy.js') }}"></script>
+    <!-- Flashy Default Template -->
+    {{ include('@MercurySeriesFlashy/flashy.html.twig') }}
 </body>
 </html>
 ```
