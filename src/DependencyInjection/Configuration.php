@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
                     ->info("The name to use as the flash message key in the session store")
                     ->defaultValue('mercuryseries_flashy_notification')
                 ->end()
-                ->scalarNode('session_flashbag_store')
+                ->scalarNode('session_store')
                     ->info("The session store to use for storing flash messages")
                     ->defaultNull()
                 ->end()

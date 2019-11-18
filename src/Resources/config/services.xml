@@ -17,7 +17,7 @@
             class="MercurySeries\FlashyBundle\SymfonySessionStore"
             public="false"
         >
-            <argument type="service" id="session.flash_bag" />
+            <argument type="service" id="session" />
         </service>
 
        <service

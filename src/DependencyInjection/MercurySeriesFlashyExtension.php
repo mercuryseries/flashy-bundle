@@ -20,8 +20,8 @@ class MercurySeriesFlashyExtension extends Extension
 
         $definition = $container->getDefinition('mercuryseries_flashy.flashy_notifier');
 
-        if (null !== $config['session_flashbag_store']) {
-            $container->setAlias('mercuryseries_flashy.session_flashbag_store', $config['session_flashbag_store']);
+        if (null !== $config['session_store']) {
+            $container->setAlias('mercuryseries_flashy.session_store', $config['session_store']);
         }
 
         $definition->setArgument(1, $config['flash_message_name']);
