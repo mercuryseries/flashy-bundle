@@ -96,7 +96,7 @@ With this message flashed to the session, you may now display it in your view(s)
 <head>
     <meta charset="UTF-8">
     <title>My Awesome Website</title>
-    <!-- Load flashy default CSS -->
+    <!-- Load Flashy default CSS -->
     <link rel="stylesheet" href="{{ asset('bundles/mercuryseriesflashy/css/flashy.css') }}" type="text/css" media="all" />
 </head>
 <body>
@@ -104,7 +104,7 @@ With this message flashed to the session, you may now display it in your view(s)
     
     <!-- Flashy depends on jQuery -->
     <script src="//code.jquery.com/jquery.js"></script>
-    <!-- Load flashy default JavaScript -->
+    <!-- Load Flashy default JavaScript -->
     <script src="{{ asset('bundles/mercuryseriesflashy/js/flashy.js') }}"></script>
     <!-- Include Flashy default partial -->
     {{ include('@MercurySeriesFlashy/flashy.html.twig') }}
