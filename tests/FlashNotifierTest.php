@@ -11,7 +11,7 @@ class FlashyTest extends TestCase
 
     private $flashy;
     
-    public function setUp()
+    public function setUp(): void
     {
         $this->session = $this->createMock('MercurySeries\FlashyBundle\SessionStore');
 
