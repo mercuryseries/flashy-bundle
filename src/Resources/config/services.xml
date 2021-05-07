@@ -17,7 +17,7 @@
             class="MercurySeries\FlashyBundle\SymfonySessionStore"
             public="false"
         >
-            <argument type="service" id="session" />
+            <argument type="service" id="request_stack" />
         </service>
 
        <service
