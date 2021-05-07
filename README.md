@@ -16,9 +16,9 @@ Coming soon...
 
 1. First, use [Composer](https://getcomposer.org/) to download the library:
 
-For Symfony 5.3+: `composer require mercuryseries/flashy-bundle`
+- For Symfony 5.3+: `composer require mercuryseries/flashy-bundle`
 
-For Symfony versions lower than 5.3, please use: `composer require "mercuryseries/flashy-bundle:^3.0"`
+- For Symfony versions lower than 5.3, please use: `composer require "mercuryseries/flashy-bundle:^3.0"`
 
 2. Then add the **MercurySeriesFlashyBundle** to your application:
 
