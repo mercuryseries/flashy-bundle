@@ -10,7 +10,7 @@ Inspired by [Jeffrey Way's Flash Package](https://github.com/laracasts/flash).
 
 ### Video Tutorial
 
-Coming soon...
+[https://www.youtube.com/watch?v=sxLceVKcWoc](https://www.youtube.com/watch?v=sxLceVKcWoc)
 
 ### You like text ?
 
