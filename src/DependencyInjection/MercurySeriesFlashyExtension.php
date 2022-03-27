@@ -27,7 +27,7 @@ class MercurySeriesFlashyExtension extends Extension
         $definition->setArgument(1, $config['flash_message_name']);
     }
 
-    public function getAlias()
+    public function getAlias(): string
     {
         return 'mercuryseries_flashy';
     }
